@@ -1,4 +1,16 @@
 package com.codedifferently.bankaccountlab;
 
-public class MainApplication {
+import com.codedifferently.bankaccountlab.Accounts.Atm;
+
+public class MainApplication 
+{
+   
+
+    public static void main(String[] args) 
+    {
+       Atm atm = new Atm();
+       atm.startATM();
+    }
+
+    
 }
